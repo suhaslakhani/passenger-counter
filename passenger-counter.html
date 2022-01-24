@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="passenger-counter.css">
+    <link rel="java" href="passenger-counter.js">
     <title>passenger-counter</title>
 </head>
+
 <body>
-    <h1>people entered:</h1>
-    <h2 id="counter-el">0</h2>
-</body>
+    <div class="p-counter">
+        <h1>people entered:</h1>
+        <h2 id="counter-el">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+
+        <script src="passenger-counter.js"></script>
+    </div> 
+
+    <!-- <p id="welcome-el"></p>
+    <script src="passenger-counter.js"></script>
+</body> -->
+
 </html>
