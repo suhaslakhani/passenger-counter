@@ -6,8 +6,10 @@ function increment() {
     count = count + 1 
     countEL.innerText = count
 }
-
+let saveEl = document.getElementById("save-el")
+let previousEnteries = count + "-"
 function save() {
+    saveEl.innerText = previousEnteries
     console.log(count)
 }
 
